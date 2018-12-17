@@ -1,0 +1,112 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+    font-size: 20px;
+    background-image: url(/img/1.jpg);
+    overflow: visible;
+}
+
+
+#content {
+    margin: 230px 0 0px 0;
+    padding: 10px 0 10px 0;
+    background-color: white;
+}
+
+.container {
+    background-color: white;
+    opacity: 0.95;
+    margin-top: 20px;
+}
+
+#content_wrapper {
+    position: relative;
+    margin: auto;
+    color: #000000;
+}
+
+#header_content {
+    text-align: center;
+    font-size: 27px;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.footer-copyright {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.img-fluid{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/*News*/
+.card-img-top {
+    height: 250px;
+    width: 250px;
+}
+
+.card-block{
+    height: auto;
+    width: 250px;
+}
+
+.card {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card:firt-child {
+    margin-left: 0px;
+}
+
+#header_content1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-responsive{
+    height: auto;
+    width: 400px;
+}
+
+
+/*Fans*/
+
+#submitBtn{
+    background-color: #800000;
+}
+
+#submit-btn{
+    background-color: #800000;
+}
+
+ ul.hr {
+    margin: 0;
+    padding: 4px; 
+}
+
+   ul.hr li {
+    display: inline; 
+    padding: 3px; 
+}
+
+.item1{
+    float: right;
+    border: 1px solid #000; 
+}
+
+.line { 
+    border-bottom: 2px solid #000000; 
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+   }
