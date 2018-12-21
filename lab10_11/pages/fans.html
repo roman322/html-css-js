@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fans</title>
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        body {
+            background-image: url('img/1.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Barcelona FC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Main <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Matches
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="calendar.html">Calendar of matches</a>
+                        <a class="dropdown-item" href="#">Next game</a>
+                        <a class="dropdown-item" href="#">Raitings</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fans.html">Fans</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin.html">Admin</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="content_wrapper">
+            <div id="head">
+                <h1 id="header_content"><b>Fans' appeals</b></h1>
+            </div>
+            <div id="text">
+                <p>Esta martes arrancaba el Barcelona FC RSP Stadium Tour y el entrenador del Barcelona FC, Pablo Machín, no quiso dejar pasar la oportunidad de visitar las entrañas del Ramón Sánchez-Pizjuán, haciendo de cicerone con un acompañante, con el que recorrió todos los puntos del tour y compartió muchas de las sensaciones que experimenta en cada partido de casa, especialmente cuando recorrió el túnel de vestuarios con el sonido ambiente de la grada.</p>
+                <ul class="hr">
+                    <li>23.09.2018</li>
+                    <li class="item1">FootballFan2000</li>
+                    <p class="line"></p>
+                </ul>
+                <p>Obviamente, la foto con las cinco UEFAS no pudo faltar, ni tampoco la parte del museo dedicada a los entrenadores ni tampoco del resto de títulos y trofeos expuestos. Machín se sentó, asimismo, en el banquillo local como un aficionado más y sobre todo con un semblante mucho más relajado que cuando lo hace en un partido con el Barcelona FC.</p>
+                <ul class="hr">
+                    <li>21.09.2018</li>
+                    <li class="item1">FootballFan2001</li>
+                    <p class="line"></p>
+                </ul>
+            </div>
+
+            <div class="form-container">
+                <form action="preventDefault()" id="feedbackForm"></form>
+                <div class="form-group">
+
+                    <textarea class="form-control" id="addFeedbackArea" rows="3" required></textarea>
+                    <div class="invalid-feedback">
+                        Request body cannot be empty
+                    </div>
+                </div>
+                <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3">© 2018 Barcelona FC Copyright
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

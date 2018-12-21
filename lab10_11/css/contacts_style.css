@@ -1,0 +1,33 @@
+@import 'styles.css';
+
+h1 {
+    margin: 60px;
+    font-family: "Arial", serif;
+    font-weight: 300;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    height: 39.22rem;
+}
+
+.main-text {
+    width: 500px;
+    left: 0;
+}
+
+#map {
+    width: 500px;
+    height: 400px;
+    right: 0;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .main-text > h2 {
+        padding-top: 60px;
+    }
+}
+

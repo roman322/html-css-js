@@ -1,0 +1,21 @@
+{
+  "name": "feedback",
+  "version": "1.0.0",
+  "description": "feedbacks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.4",
+    "mongod": "^2.0.0",
+    "mongodb": "^2.2.36",
+    "mongoose": "4.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
